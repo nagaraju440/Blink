@@ -1,0 +1,130 @@
+.game1-video-bg{
+    background-image: url('../../assets/bgimg.jpg');
+    background-size: 100%;
+    background-repeat: none;
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    padding-top: 140px;
+    color: white;
+}
+.game1-video-center{
+    width: 100%;
+    height: 500px;
+    /* background-color: red; */
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.game1-video-names-text{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+#v{
+    width: 450px;
+    height: 350px;
+    background-color: white;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+.game1-video-container{
+    width: 450px;
+    height: 350px;
+    background-color: white;
+    margin: 0px auto;
+    margin-top: 30px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.game1-video-container1{
+    width: 450px;
+    height: 350px;
+    background-color: white;
+    margin: 0px auto;
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game1-video-sec{
+    font-size: 40px;
+    margin-top:30px;
+    text-align: center;
+}
+.sub-text{
+    padding-left: 10px;
+    font-size: 15px;
+    /* margin-top: -16px; */
+}
+.game1-score-text{
+    font-size: 36px;
+    text-align: center;
+}
+.home-video-btn{
+    width: 205px;
+    height: 60px;
+    background-color: rgb(49, 233, 24);
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+.webcam{
+    position: absolute;
+    margin: 0px auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+       
+}
+.canvas-c{
+    position: relative;
+    margin: 0px auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+       
+}
+
+@media screen and (max-width:500px) {
+    
+    #v{
+        width: 400px;
+        /* height: 350px;
+        background-color: white;
+        margin: 0px auto;
+        margin-top: 30px; */
+    }
+}
+@media screen and (max-width:400px) {
+    
+    #v{
+        width: 350px;
+    }
+}
+@media screen and (max-width:350px) {
+    
+    #v{
+        width: 300px;
+    }
+}
+@media screen and (max-width:300px) {
+    
+    #v{
+        width: 270px;
+    }
+}

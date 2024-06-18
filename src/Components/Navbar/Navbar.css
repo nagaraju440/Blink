@@ -1,0 +1,85 @@
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    /* background-color: red; */
+    position: absolute;
+}
+.navbar-inner-container{
+    width: 80%;
+    height: 100%;
+    /* background-color: red; */
+    margin: 0px auto;
+}
+.navbar-inner-container{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-Logo-container{
+    display: flex;
+    align-items: center;
+}
+.navbat-b{
+    font-size: 36px;
+    
+}
+.navbar-title{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar-logo-img{
+    width: 77px;
+    height: 40px;
+}
+.navbar-right-container{
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: none !important;
+    border: none !important;
+    justify-content: space-between;
+    box-shadow: none !important;
+}
+.navbar-right-text{
+    font-size: 20px;
+    
+    font-weight: bold;
+    color: white;
+}
+.ant-menu-item-selected{
+    /* color: #1890ff !important; */
+    background: none !important;
+    border-bottom: 2px solid blue;
+}
+.ant-menu::after {
+    display: table;
+    clear: unset;
+    content: unset;
+}
+
+.desktop-right-nav{
+    display: block;
+}
+.mobile-right-nav{
+    display: none;
+    color: white;
+}
+@media screen and (max-width:850px) {
+    .desktop-right-nav{
+        display: none;
+    }
+    .mobile-right-nav{
+        display: block;
+        color: white;
+        cursor: pointer;
+    }
+    .navbar-right-container {
+        width: 10%;
+    }
+}
